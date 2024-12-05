@@ -1,0 +1,500 @@
+   65  git clone https://github.com/Saran-Me/git-demo.git
+   66  clear
+   67  ls
+   68  cd git-demo
+   69  ls -l
+   70  touch file1.txt
+   71  ls -l
+   72  git add 
+   73  git add .
+   74  git status
+   75  nano file1.txt
+   76  clear
+   77  git status
+   78  git add .
+   79  git status
+   80  cat file1.txt
+   81  clear
+   82  git commit -m "file upload"
+   83  git log
+   84  git push -u origin master
+   85  git revert --help
+   86  git log
+   87  ls
+   88  touch file.txt nano.txt
+   89  git add file.txt
+   90  git commit -m "file added"
+   91  git log
+   92  git add nano.txt
+   93  git commit -m "2ndfile added"
+   94  git log
+   95  git revert fa6df58bda10e429f0297d9647b5d22241def01d
+   96  git log
+   97  git status
+   98  git push -u origin master
+   99  touch test.txt
+  100  git status
+  101  git add .
+  102  git commit -m "test file is added"
+  103  git log
+  104  git revert 1f339972ff84bcc1043d0c5d19c92aac44dc7d29
+  105  git push -u origin master
+  106  clear
+  107  touch demo.txt
+  108  ls
+  109  touch test.txt
+  110  git add demo.txt
+  111  git commit -m "demo file"
+  112  git log
+  113  ls
+  114  cd git-demo
+  115  ls
+  116  cd git-demo
+  117  clear
+  118  git log
+  119  clear
+  120  ls
+  121  git add test.txt
+  122  git commit -m "test data"
+  123  git log
+  124  ls
+  125  cd git-demo
+  126  cd git-demo
+  127  clear
+  128  git log
+  129  git revert 93cd8da18a479d733a8cd9e2d2b6595fd66f0fca
+  130  git log
+  131  clear
+  132  git push -u origin master
+  133  ls
+  134  git log
+  135  clear
+  136  git branch
+  137  git branch develop
+  138  git branch
+  139  git checkout develop
+  140  git branch
+  141  git status
+  142  touch file.txt
+  143  git add .
+  144  git commit -m "file upload"
+  145  git push -u origin develop
+  146  git status
+  147  clear
+  148  git log
+  149  clear
+  150  git status
+  151  ls
+  152  nano file.txt
+  153  git status
+  154  git add .
+  155  git commit -m "update"
+  156  git push -u origin develop
+  157  clear
+  158  git branch
+  159  git checkout master
+  160  git branch
+  161  git checkout -b Ant
+  162  git branch
+  163  git log
+  164  clear
+  165  ls
+  166  rm -rf git-demo/
+  167  ls
+  168  git clone https://github.com/Saran-Me/git-demo.git
+  169  cd git-demo/
+  170  git branch
+  171  git branch
+  172  git checkout develop
+  173  git checkout -d develop
+  174  git checkout master
+  175  git status
+  176  git commit -m "branch update"
+  177  touch git.txt
+  178  git add git.txt
+  179  git commit -m "update file"
+  180  git push -u origin master
+  181  git branch --help
+  182  git branch --list
+  183  git branch -D develop
+  184  git branch --list
+  185  git checkout develop
+  186  git checkout master
+  187  git branch -q develop
+  188  git branch --list
+  189  git branch
+  190  git checkout develop
+  191  cd ..
+  192  ls
+  193  cd git-demo
+  194  git branch master
+  195  git checkout master
+  196  git status
+  197  ls
+  198  touch demo.txt
+  199  l
+  200  git add .
+  201  git status
+  202  git commit -m "demo file"
+  203  git push -u origin master
+  204  cd ..
+  205  rm -rf git-demo/
+  206  git clone https://github.com/Saran-Me/git-demo.git
+  207  clear
+  208  ls
+  209  cd git-demo
+  210  touch file{1..3}.txt
+  211  git add .
+  212  git commit -m "file added"
+  213  git push -u origin master
+  214  git branch
+  215  git branch develop
+  216  git branch
+  217  git checkout develop
+  218  git checkout -b model
+  219  git checkout develop
+  220  git checkout -D model
+  221  git banch -D model
+  222  git branc -D model
+  223  git branch -D model
+  224  ls
+  225  git clone https://github.com/Saran-Me/git-demo.git
+  226  ls
+  227  rm -rf git-demo
+  228  git clone https://github.com/Saran-Me/git-demo.git
+  229  cd git-demo/
+  230  ls
+  231  clear
+  232  ls
+  233  nano README.md
+  234  cat README.md
+  235  clear
+  236  git config --global user.name "saran"
+  237  git config --global user.email "sarannobel@gmail.com"
+  238  mkdir demo
+  239  ls
+  240  cd demo
+  241  cd ../
+  242  rm -rf demo
+  243  cd ../
+  244  clear
+  245  mkdir demo
+  246  cd demo/
+  247  git init .
+  248  ls -la
+  249  rm -rf .git/
+  250  git init .
+  251  ls -la
+  252  cd ../
+  253  rm -rf demo/
+  254  clear
+  255  cd git-demo/
+  256  ls
+  257  clear
+  258  cd ../
+  259  man mkdir
+  260  mkdir help
+  261  ls
+  262  clear
+  263  mkdir -p help
+  264  ls
+  265  rm -r help/
+  266  cd git-demo
+  267  ls
+  268  touch file{1..2}.txt
+  269  clear
+  270  git add file1.txt
+  271  git status
+  272  nano file1.txt
+  273  clear
+  274  git status
+  275  git add file2.txt
+  276  clear
+  277  git status
+  278  cat file1.txt
+  279  git restore file1.txt
+  280  clear
+  281  git status
+  282  cat file1.txt
+  283  git commit -m "first commit"
+  284  clear
+  285  git log
+  286  git status
+  287  clear
+  288  touch file3.txt
+  289  git add .
+  290  git status
+  291  git commit -m "second update"
+  292  clear
+  293  git log
+  294  git branch
+  295  git push -u origin master
+  296  clear
+  297  git clone https://github.com/Saran-Me/git-demo.git
+  298  rm -rf git-demo/
+  299  clear
+  300  git clone https://github.com/Saran-Me/git-demo.git
+  301  ls
+  302  cd git-demo
+  303  ls -la
+  304  rm -rf .git/
+  305  mkdir .git/
+  306  rm -rf .git/
+  307  ls -la
+  308  clear
+  309  git init .
+  310  ls
+  311  nano README.md
+  312  cat README.md
+  313  clear
+  314  touch file{1..2}.txt
+  315  ls
+  316  git status
+  317  git add .txt/*
+  318  git status
+  319  clear
+  320  git add ./*.txt
+  321  git status
+  322  git add README.md
+  323  git status
+  324  nano file1.txt
+  325  clear
+  326  git status
+  327  git add .
+  328  git status
+  329  clear
+  330  git commit -m "file upload"
+  331  git config --global user.name "thatchana"
+  332  git config --global user.email "thatchana001@gmail.com"
+  333  git status
+  334  git log
+  335  clear
+  336  touch file3.txt
+  337  git status
+  338  git add file3.txt
+  339  git commit -m "second file upload"
+  340  git log
+  341  git remote -v
+  342  clear
+  343  git remote set-url add origin https://github.com/Saran-Me/git-demo.git
+  344  git remote --help
+  345  git remote set-url --add  https://github.com/Saran-Me/git-demo.git
+  346  git remote set-url --add origin https://github.com/Saran-Me/git-demo.git
+  347  git remote -v
+  348  git remote add origin https://github.com/Saran-Me/git-demo.git
+  349  git remote -v
+  350  git push -u origin master
+  351  clear
+  352  git push -u origin master
+  353  git pull
+  354  git push -u origin master
+  355  clear
+  356  git remote -v
+  357  git remote set-url https://github.com/Saran-Me/git-demo.git
+  358  git remote set-url --push https://github.com/Saran-Me/git-demo.git
+  359  git remote set-url --add https://github.com/Saran-Me/git-demo.git
+  360  clear
+  361  git push -u origin master
+  362  git push  origin master
+  363  git push --help
+  364  git push -n origin master
+  365  git push -all origin master
+  366  clear
+  367  git remote add origin-push https://github.com/Saran-Me/git-demo.git
+  368  git push -u origin master
+  369  git fetch origin-push
+  370  git remote -v
+  371  git push -u origin master
+  372  git fetch origin-push --delete
+  373  clear
+  374  git remote -v
+  375  git push origin --delete origin-push
+  376  git remote -v
+  377  git push origin --delete  https://github.com/Saran-Me/git-demo.git
+  378  git remote -v
+  379  clear
+  380  git pull
+  381  git pull master
+  382  git pull ./
+  383  git push -u origin master
+  384  cd ../
+  385  clear
+  386  mkdir portfolio
+  387  cd portfolio
+  388  git init .
+  389  cd ../
+  390  cd git-demo
+  391  git remote -v
+  392  clear
+  393  git remote -v
+  394  git push -u origin master
+  395  git pull origin master
+  396  ls
+  397  git add .
+  398  git commit -m "update"
+  399  git remote -v
+  400  git push origin master --force
+  401  git remote -v
+  402  git remote remove origin-push
+  403  git remote -v
+  404  clear
+  405  ssh -v
+  406  clear 
+  407  cd ../
+  408  rm -rf git-demo/
+  409  clear
+  410  ls
+  411  git clone https://github.com/Saran-Me/demo.git
+  412  ls
+  413  cd demo/
+  414  ls
+  415  ls -la
+  416  rm -rf .git/
+  417  git init .
+  418  clear
+  419  ls
+  420  nano README.md
+  421  cat README.md
+  422  touch file{1..2}.txt
+  423  ls
+  424  clear
+  425  git status
+  426  git add .
+  427  git status
+  428  git rm --cached file2.txt
+  429  clear
+  430  git status
+  431  git commit -m "upload file"
+  432  git status
+  433  clear
+  434  git log
+  435  git config --global user.name "surya"
+  436  git config --global user.email "surya001@gmail.com"
+  437  git status
+  438  git add file2.txt
+  439  git status
+  440  git commit -m "second file upload"
+  441  git status
+  442  clear
+  443  git log
+  444  git remote -v
+  445  git remote add https://github.com/Saran-Me/demo.git
+  446  git remote add origin https://github.com/Saran-Me/demo.git
+  447  git branch
+  448  clear
+  449  git push -u origin master
+  450  git pull
+  451  git remote -v
+  452  clear
+  453  git push -u origin master
+  454  git push origin master --force
+  455  git commit --help
+  456  cd ../
+  457  rm -rf demo/
+  458  ls
+  459  cd tasks/
+  460  ls
+  461  cd ../
+  462  cd demo/
+  463  mkdir demo/ && cd demo/
+  464  ls
+  465  git clone https://github.com/Saran-Me/sample.git
+  466  ls
+  467  cd sample/
+  468  cd
+  469  ls
+  470  cd oneDrive/
+  471  ls
+  472  cd Desktop/
+  473  ;s
+  474  clear
+  475  ls
+  476  cd
+  477  ls
+  478  history
+  479  clear
+  480  git config --list --show-origin
+  481  ls
+  482  mkdir demo
+  483  cd demo
+  484  git init .
+  485  clear
+  486  touch sample{1..2}.txt
+  487  git add .
+  488  git status
+  489  ls
+  490  cat .gitignore sample/
+  491  git status
+  492  clear
+  493  git add sample{1..2}.txt
+  494  git status
+  495  cat .gitignore sample1.txt
+  496  cat *.txt
+  497  git status
+  498  .sample1.txt
+  499  clear
+  500  git status
+  501  ls
+  502  cd Onedrive/Desktop/
+  503  ls
+  504  cd demo
+  505  rm -r .git/
+  506  ls -la
+  507  clear
+  508  git clone https://github.com/thatchana09/demo.git
+  509  ls
+  510  cd demo
+  511  ls
+  512  clear
+  513  touch index.html
+  514  nano index.html
+  515  cat  index.html
+  516  clear
+  517  git remote -v
+  518  ls
+  519  git add index.html
+  520  git status
+  521  clear
+  522  git commit -m "html file upload"
+  523  git push -u origin master
+  524  git push -u origin master
+  525  git push -u origin master
+  526  git config --list
+  527  touch beginner.html && nano beginner.html
+  528  git add beginner.html
+  529  git status
+  530  clear
+  531  git commit -m "second file upload"
+  532  git log
+  533  clear
+  534  git remote -v
+  535  git push -u origin master
+  536  git pull master
+  537  git branch
+  538  git branch -r
+  539  git pull origin master
+  540  touch style.css && nano style.css
+  541  git add style.css
+  542  git commit -m "css upload"
+  543  git push -u origin master
+  544  git branch Developer
+  545  git branch
+  546  git checkout Developer
+  547  ls
+  548  touch script.js && nano script.js
+  549  git add script.js
+  550  git commit -m "script upload"
+  551  git remote -v
+  552  git push -u origin Developer
+  553  git log
+  554  clear
+  555  git branch -a
+  556  git pull -r
+  557  git merge master Developer
+  558  git merge Developer master
+  559  git checkout master
+  560  git log
+  561  clear
+  562  git merge master Developer
+  563  git log
+  564  history > git.txt
